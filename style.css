@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logoContainer{
+
+    padding:12px;
+    height: 50px;
+}
+
+
+.logo{
+
+    background-color: rgb(3, 25, 90);
+    color:aqua;
+    margin-top: 80px;
+    padding: 20px;
+    border:solid 3px aqua;
+    border-radius: 10px 40px 40;
+    
+}
+
+
+.navContainer{
+
+/* display: flex;
+justify-content: space-between; */
+
+background-color: blue;
+padding:50px
+
+}
+
+
+
+
+li{
+
+    
+    float: right;
+    display: inline;
+    list-style: none;
+    
+
+}
+    
+
