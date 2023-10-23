@@ -26,7 +26,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10px ;
-     background-color: rgb(28, 50, 50); 
+    background-color: rgb(28, 50, 50); 
 }
 
 .logo{
@@ -73,7 +73,7 @@ button{
 
 button:hover{
 
-    color: rgb(0, 13, 16,0.8); */
+    color: rgb(0, 13, 16,0.8);
 }
 /* end on nav-section */
 
@@ -81,7 +81,7 @@ button:hover{
 
 
 /* introduction section */
-
+.name-sec{
     display: flex;
     justify-content: center;
     padding: 28px;
@@ -94,9 +94,83 @@ button:hover{
     display: flex;
     padding: 9px;
     font-size: 2em;
-    
+    justify-content: center;
+    flex-wrap: wrap;
    
 }
 
- 
+.bootcamp-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    border: solid 3px lightblue;
+    color: white;
+    padding:30px;
+}
+
+
+
+/* cards section */
+
+
+.week-grid{
+    display: flex ;
+    grid-template-columns: repeat(auto-fit,minmax(300, 1fr));
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.week-total{
+   background: rgb(0, 136, 169,1) ;
+   padding: 1rem;
+   border: 1px;
+   border-radius: .25rem;
+   max-width: 300px;
+}
+
+
+.weeks-header{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+
+
+}
+
+.weeks-body{
+
+    font-size: .9rem;
+
+
+}
+
+.Weeks-footer{
+    margin-top: 1rem;
+
+}
+
+
+
+/* card button */
+.btn{
+
+    padding: .5em .75em;
+    background-color: rgb(0, 136, 169,1);
+    border:none;
+    font-size: 1rem;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: center;
+}
+
+
+/* .btn-Next-outline{
+
+
+} */
+
+
+
+
 
